@@ -32,3 +32,9 @@ function displayWeather(data) {
         <p>Wind Speed: ${data.wind.speed} m/s</p>
     `;
 }
+
+document.getElementById("searchButton").addEventListener("click", function() {
+    // Show the weather info. when the search button is clicked
+    document.getElementById("weatherInfo").style.display = "block";
+});
+
